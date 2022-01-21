@@ -2771,7 +2771,10 @@ color: #333;
     line-height: 1.1;
 }
 #home {
-    min-height: calc(100vh - 150px);
+   min-height: auto;
+}
+#home .section-wrapper {
+    padding: 35px 0 35px 0;
 }
 
 }
